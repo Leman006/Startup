@@ -15,12 +15,12 @@ export default function RecommendationCard({
         </div>
         <div className="flex-1">
           <h4 className="muted font-medium">{title}</h4>
-          <p className="mt-1 text-gray-800 text-base font-semibold">
+          <p className="mt-1 text-slate-800 text-base font-semibold">
             {message ||
               "Apply supplemental irrigation to maintain root zone moisture."}
           </p>
           <div className="mt-3 flex items-center justify-between">
-            <div className="flex items-center gap-2 text-sm text-gray-600">
+            <div className="flex items-center gap-2 text-sm text-slate-600">
               <CloudRain className="w-4 h-4 text-blue-400" />
               <span>Estimated: {suggestionLiters ?? 0} L</span>
             </div>
