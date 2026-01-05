@@ -12,9 +12,10 @@
 ---
 
 ## 🛠 Tech Stack
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ---
@@ -24,13 +25,13 @@ Traditional smart-agro platforms (like CropX or John Deere) are often unaffordab
 * **Water Inefficiency:** Up to 40% water loss due to inefficient irrigation (FAO).
 * **High Barrier to Entry:** Existing systems require expensive sensors and complex maintenance.
 * **Soil Degradation:** Over-fertilization costs farmers money and damages soil health.
-* **Operational Complexity:** Farmers often lack the technical expertise for high-end data literacy platforms.
+* **Operational Complexity:** Farmers often lack the technical expertise for high-end data platforms.
 
 ## ✨ Our Solution: MyGarden
 **MyGarden** is a software-only SaaS product designed to democratize precision agriculture.
 * **Digital Irrigation Journal:** Simplified tracking of water usage by plot, zone, and crop type.
 * **Automated Recommendations:** Data-driven advice powered by **OpenWeather API** and **GIS/FAO soil maps**.
-* **Water Intelligence:** Precise calculations of water needs ($ET_0$, $K_c$, and soil factors) without the need for physical sensors.
+* **Water Intelligence:** Precise calculations of water needs ($ET_0$, $K_c$, and soil factors) without physical sensors.
 
 ---
 
@@ -66,4 +67,17 @@ We target the revitalized agricultural regions of Azerbaijan, including Karabakh
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Digital-Ducks/MyGarden.git](https://github.com/Digital-Ducks/MyGarden.git)
+   git clone https://github.com/Leman006/Startup
+   
+Backend Setup (Node.js/Express):
+cd backend
+npm install
+# Add your OpenWeather API Key to the .env file
+npm start
+
+Frontend Setup (React):
+cd frontend
+npm install
+npm start
+
+<p align="center"> <i>Developed with ❤️ for a Greener Future in Agriculture.</i> </p>
