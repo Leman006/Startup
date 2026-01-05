@@ -1,1 +1,69 @@
-🌿 MyGarden: Precision Agriculture for EveryoneDigital Irrigation Journal & Smart Recommendation System helping farmers save up to 40% of water without expensive hardware sensors1111.+2🚩 The ProblemTraditional smart-agro platforms (like CropX or John Deere) are often unaffordable for small-scale farmers, costing between $300 and $5000+2222.+2Water Inefficiency: Inefficient irrigation leads to up to 40% water loss3333.+1High Costs: Existing platforms require expensive hardware sensors and high subscription fees4444.+2Operational Complexity: Many systems require high technical expertise and data literacy skills5555.+1Soil Health: Over-fertilization and nutrient leaching after rainfall reduce soil fertility and waste money6666.+1✨ Our Solution: MyGardenMyGarden is a software-only SaaS product designed for small to medium farms, starting at just $5/month77777777.+3Digital Irrigation Journal: Allows farmers to enter plot zones, crop types, dates, and water amounts8888.+1Automated Recommendations: Suggestions based on user-entered data, real-time weather via OpenWeather API, and predicted soil types via GIS/FAO maps9999.+1Water Intelligence: Calculates precise needs (e.g., $ET_0$, $K_c$, and soil factors) to generate a customized strategy10101010.+1Accessibility: Works on web and mobile with no dependency on proprietary hardware or government ecosystems1111.+1📊 Market & Business ModelWe focus on high-potential regions, specifically the rebuilt agricultural zones of Karabakh and Eastern Zangezur12121212.+1TAM: ~450,000 farmers in Azerbaijan's EKTIS system13131313.+1SAM: 350,000–400,000 active internet-using farmers14141414.+1SOM: 1,000–3,000 early adopters in prioritized regions15151515.+1Pricing: Tiered subscriptions for Smallholdings ($5), Small-scale farms ($15), and Mid-size Agribusiness ($30)16161616.+1Financial Goal: Expected ROI > 500% within the first year with a 2-month payback period17171717.+1🛠 Tech StackFrontend: React (Web & Mobile optimized)181818.+1Backend: Python (FastAPI)19.Database: PostgreSQL.Integrations: OpenWeather API, ISRIC/FAO Soil Maps20202020.+1👥 The "Digital Ducks" TeamFarid Huseynov — Team Lead212121.+1Leman Beshirli — Full-Stack Developer22.Nihat Kerimov — Frontend Developer23.Saida Salmanova — Business Analytics24.Medina Agayeva — Graphic Designer25.🏁Developed for sustainable farming and digital transformation in the agricultural sector26262626.
+# 🌿 MyGarden: Precision Agriculture for Everyone
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-MVP-green?style=for-the-badge" alt="Status MVP">
+  <img src="https://img.shields.io/badge/Focus-Sustainability-brightgreen?style=for-the-badge" alt="Focus Sustainability">
+  <img src="https://img.shields.io/badge/Region-Karabakh%20Focus-blue?style=for-the-badge" alt="Region Focus">
+</p>
+
+> **Digital Irrigation Journal & Smart Recommendation System**
+> Empowering small-scale farmers to save up to 40% of water through data-driven insights—no expensive hardware required.
+
+---
+
+## 🛠 Tech Stack
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+---
+
+## 🚩 The Problem
+Traditional smart-agro platforms (like CropX or John Deere) are often unaffordable for small-scale farmers, costing between **$300 and $5000+**.
+* **Water Inefficiency:** Up to 40% water loss due to inefficient irrigation (FAO).
+* **High Barrier to Entry:** Existing systems require expensive sensors and complex maintenance.
+* **Soil Degradation:** Over-fertilization costs farmers money and damages soil health.
+* **Operational Complexity:** Farmers often lack the technical expertise for high-end data literacy platforms.
+
+## ✨ Our Solution: MyGarden
+**MyGarden** is a software-only SaaS product designed to democratize precision agriculture.
+* **Digital Irrigation Journal:** Simplified tracking of water usage by plot, zone, and crop type.
+* **Automated Recommendations:** Data-driven advice powered by **OpenWeather API** and **GIS/FAO soil maps**.
+* **Water Intelligence:** Precise calculations of water needs ($ET_0$, $K_c$, and soil factors) without the need for physical sensors.
+
+---
+
+## 📊 Competitive Comparison
+
+| Feature | MyGarden | CropX / John Deere |
+| :--- | :---: | :---: |
+| **Price** | **$5 - $30/mo** | $300 - $5000+ |
+| **Hardware** | **No sensors needed** | Required |
+| **Setup Time** | **Instant (5 min)** | Days / Weeks |
+| **Accessibility** | **Mobile-first / Simple** | Complex / Technical |
+
+---
+
+## 📈 Market & Business Strategy
+We target the revitalized agricultural regions of Azerbaijan, including Karabakh and Eastern Zangezur.
+* **Target Audience:** ~450,000 farmers in the EKTIS ecosystem.
+* **Revenue Model:** Tiered subscriptions for Smallholdings ($5), Small-scale ($15), and Mid-size ($30).
+* **Financial Impact:** Expected ROI > 500% in the first year with a 2-month payback period.
+
+---
+
+## 👥 The "Digital Ducks" Team
+* **Farid Huseynov** — Team Lead
+* **Leman Beshirli** — Full-Stack Developer
+* **Nihat Kerimov** — Frontend Developer
+* **Saida Salmanova** — Business Analytics
+* **Medina Agayeva** — Graphic Designer
+
+---
+
+## 🏁 Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Digital-Ducks/MyGarden.git](https://github.com/Digital-Ducks/MyGarden.git)
